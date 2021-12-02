@@ -1,6 +1,4 @@
 const createNote = (title, content) => {
-  const data = { title: title, content: content};
-  
   fetch('http://localhost:3000/notes', {
   method: 'POST',
   headers: {
