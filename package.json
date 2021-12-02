@@ -1,0 +1,24 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle  --outfile=bundle.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatiananantes/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatiananantes/notes/issues"
+  },
+  "homepage": "https://github.com/tatiananantes/notes#readme",
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}
